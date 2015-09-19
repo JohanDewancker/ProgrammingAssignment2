@@ -2,9 +2,10 @@
 ## functions do
 
 ## makeCacheMatrix creates a special vector 
+## argument must be a square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-  m <- NULL
+  s <- NULL
   set <- function(y) {
     x <<- y
     s <<- NULL
